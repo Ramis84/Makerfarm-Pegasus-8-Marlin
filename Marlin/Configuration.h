@@ -745,7 +745,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.19, 80.19, 796, 407 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.07, 80.07, 800, 407 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1017,7 +1017,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -27, -17, -1.11 }
+#define NOZZLE_TO_PROBE_OFFSET { -27, -17, -1.12 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1901,7 +1901,7 @@
 // This option overrides the default number of encoder pulses needed to
 // produce one step. Should be increased for high-resolution encoders.
 //
-//#define ENCODER_PULSES_PER_STEP 4
+#define ENCODER_PULSES_PER_STEP 2
 
 //
 // Use this option to override the number of step signals required to
