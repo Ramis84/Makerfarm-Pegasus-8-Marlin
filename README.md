@@ -1,4 +1,4 @@
-# Marlin 2.0 on Makerfarm Pegasus 8 ''
+# Marlin 2.0 on Makerfarm Pegasus 8''
 
 ## Summary
 1. Original hardware from Makerfarm:
