@@ -493,9 +493,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
     // E3Dv6
-    #define DEFAULT_Kp 29.67
-    #define DEFAULT_Ki 2.48
-    #define DEFAULT_Kd 88.70
+    #define DEFAULT_Kp 34.58
+    #define DEFAULT_Ki 2.85
+    #define DEFAULT_Kd 104.83
     //#define DEFAULT_Kp  22.20
     //#define DEFAULT_Ki   1.08
     //#define DEFAULT_Kd 114.00
